@@ -21,7 +21,7 @@ Train/Dev split: 9596/1066
 
 目的是为了对比kim这篇文章的结果：
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/cnn_res.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/kim_res.PNG)
 
 
 #### CNN+Att中的注意力部分

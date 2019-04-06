@@ -1,6 +1,6 @@
 # BaseTensorFlowModel
 ## 模型简介：
->在这个仓库当中本人旨实现深度学习的一些常见的模型：CNN、LSTM、GRU，然后再这些baseline模型中添加不同的注意力，在MR数据集当中验证结果。
+>在这个仓库当中本人旨实现深度学习的一些常见的模型：CNN、LSTM、GRU，然后再这些baseline模型中添加不同的注意力，在MR数据集当中验证结果。（希望这些代码对看到的人有所帮助，希望各位看到的人指出其中的不足，我会及时的采纳意见，修改和继续优化！）
 ## 实验数据集
 实验数据集：
 下载地址：https://www.cs.cornell.edu/people/pabo/movie-review-data/

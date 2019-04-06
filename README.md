@@ -15,25 +15,28 @@ Train/Dev split: 9596/1066
 ### CNN
 #### CNN部分我采用的是Kim经典文章里的模型：
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/kim_cnn.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/kim_cnn.PNG)
 
 >论文下载地址：https://arxiv.org/pdf/1408.5882
 
 目的是为了对比kim这篇文章的结果：
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_res.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/cnn_res.PNG)
 
 
 #### CNN+Att中的注意力部分
 受到实验室师兄的启发，我试着在卷积上实现了一下注意力机制：
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_att_formal.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/cnn_att_formal.PNG)
+
+##### 这篇文章的模型图（在这个任务当中我只是实现了模型的半边）：
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/cnn_att_model.PNG)
 
 >论文下载地址：https://pdfs.semanticscholar.org/4946/89f4522619b887e515aea2b205490b0eb5cd.pdf
 
 #### CNN部分的实验结果
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_res.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/cnn_res.PNG)
 
 ### RNN
 > RNN部分Baseline是LSTM（or双向）、GRU（or双向），并在两者上面添加了注意力机制
@@ -42,11 +45,11 @@ Train/Dev split: 9596/1066
 
 用手画的，有点low：
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_att_model.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/rnn_att_model.bmp)
 
 #### RNN部分实验结果
 
-![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/rnn_res.PNG)
+![](https://github.com/DataZwer/BaseTensorFlowModel/raw/master/image/rnn_res.PNG)
 
 ### 问题
 

@@ -15,25 +15,25 @@ Train/Dev split: 9596/1066
 ### CNN
 #### CNN部分我采用的是Kim经典文章里的模型：
 
-![upload successful](\\images\pasted-4.png\)
+![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/kim_cnn.PNG)
 
 >论文下载地址：https://arxiv.org/pdf/1408.5882
 
 目的是为了对比kim这篇文章的结果：
 
-![upload successful](\\images\pasted-5.png\)
+![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_res.PNG)
+
 
 #### CNN+Att中的注意力部分
 受到实验室师兄的启发，我试着在卷积上实现了一下注意力机制：
 
-
+![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_att_formal.PNG)
 
 >论文下载地址：https://pdfs.semanticscholar.org/4946/89f4522619b887e515aea2b205490b0eb5cd.pdf
 
 #### CNN部分的实验结果
 
-
-![upload successful](\\images\pasted-3.png\)
+![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_res.PNG)
 
 ### RNN
 > RNN部分Baseline是LSTM（or双向）、GRU（or双向），并在两者上面添加了注意力机制
@@ -42,10 +42,11 @@ Train/Dev split: 9596/1066
 
 用手画的，有点low：
 
+![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/cnn_att_model.PNG)
 
 #### RNN部分实验结果
 
-
+![](https://github.com/DataZwer/BaseTensorFlowModel/tree/master/image/rnn_res.PNG)
 
 ### 问题
 
@@ -56,6 +57,9 @@ Train/Dev split: 9596/1066
 * 3.None的问题？
 
 * 4.第一次尝试复现别人文章里的一些东西，理解是否有误？
+
+* 5.实验结果还差别人的0.1个百分点，还有哪一些地方可以优化的？
+
 
 
 
